@@ -1,0 +1,225 @@
+body
+  {
+    margin: 0 auto;
+  }
+ .header-top-zero {
+     height: 88px;
+ }
+.header-top {
+  background-color: #007765;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+   }
+    
+.conteiner {
+    width: 1219px;
+    padding-left: 55px;
+    padding-right: 55px; 
+    margin: 0 auto;
+    box-sizing: border-box;
+   
+  }
+
+.header-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-info img  {
+   width: 183.96px;
+   height: 45.04px;
+   margin-top: 20px;
+   margin-bottom: 19px;
+   
+}
+ 
+
+.header-info-list {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-between;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    font-style: normal;
+    color: #FFFFFF;   
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.header-info-list li {
+    margin-top: 29px;
+    margin-bottom: 26px;
+}
+
+.header-info-list  li
+ {
+    margin-right: 5px;
+}
+
+.header-info-list  a {
+       text-decoration: none;
+       color: #FFFFFF;
+}
+
+
+.Pipernet {
+    background-image: url(img/image@2x.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 403px;
+    line-height: 403px; 
+    text-align: center;  
+ 
+    }
+
+.Pipernet p {
+   font-family:  'Roboto';
+   font-weight: 500;
+   font-size: 72px;
+   color: #FFFFFF;
+   margin: 0px;
+   }
+
+.info-item1 {
+    font-weight: 500;
+    font-family: "Roboto";
+    font-size: 64px;
+    text-align: center;
+    color: #007765;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+.info-item2 {
+    font-family: "Roboto";
+    font-size: 32px;
+    margin-bottom: 92px;
+   }
+
+.info-item2 span {
+  font-weight: 700;
+}
+
+.background2 {
+    background-image: url(./img/im2.png);
+    background-position: center center;
+    background-size: cover;
+    height: 483px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.backgroun2-item1  {
+    font-size: 48px;
+    font-family: Roboto;
+    font-weight: 500;
+    font-style: italic;
+    color: #FFFFFF;
+    text-align: center;
+    flex-shrink: 0;
+}
+.PiedPiperCoin-item1 {
+    font-size: 64px;
+    font-weight: 500;
+    color: #007765;
+    font-family: "Roboto";
+    text-align: center;
+    margin-top: 48px;
+    margin-bottom: 16px;
+    
+}
+.PiedPiperCoin-item2{
+    display: flex;
+    margin-top: 16px;
+}
+.PiedPiperCoin-item2-text {
+
+    font-size: 32px;
+    font-family: "Roboto";
+    margin-left: 48px;
+}
+.PiedPiperCoin-item3 {
+    font-size: 32px;
+    font-family: "Roboto";
+    margin-bottom: 92px;
+}
+
+.team {
+    background: #EEEEEE;
+    margin: auto;
+    width: 1140px;
+
+     
+}
+
+.team-header {
+    font-size: 64px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #007765;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+ 
+}
+.team-developers{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+ 
+  .team-developers-peple {
+      width: 380px;
+      text-align: center;
+      padding-bottom: 20px;
+  }
+
+  .team-developers-peple img {
+      margin-bottom: 10px;
+    
+}
+
+
+
+
+.team-developers-peple p {
+   margin: 0em;
+}
+
+
+.team-developers-peple-name {
+       font-size: 24px;
+       color: #007765;
+       font-weight: 700;
+       font-family: "roboto";
+        
+   }
+.team-developers-peple-name-position {
+    font-size: 18px;
+    color:black;
+    font-style: italic;
+    font-family: "roboto";
+   
+}
+
+
+
+footer {
+    background: #333333;;
+    padding: 48px 340px 68px 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.end-footer {
+    font-family: 'roboto';
+    font-size: 18px;
+    color: white;
+        
+}
